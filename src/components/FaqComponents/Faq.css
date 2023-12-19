@@ -26,7 +26,7 @@ body {
   border-bottom: 1px solid #777; /* Changed border to a solid line */
 }
 .faqmain {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 /* Style the buttons that are used to open and close the FAQ page body */
 .faq-page {
@@ -59,6 +59,9 @@ body {
   margin-left: 280px;
   /* overflow: hidden; */
 }
+.faq-heading {
+  font-size: 40px;
+}
 
 .faq-page:after {
   /* content: '\2295'; */
@@ -76,7 +79,47 @@ body {
   content: url(../../assets/img/dash-circle.svg);
   /* Unicode character for "minus" sign (-) */
 }
-
+.mainfaq {
+  padding-inline: 1rem;
+  max-width: 1248px;
+  margin-inline: auto;
+  margin-top: 150px;
+}
+.faqmain {
+}
+.faq-body {
+  width: 100%;
+  margin: 0;
+}
+.mainfaq {
+  display: flex;
+}
+.faq-main {
+  width: 33.3%;
+}
+.faq-page {
+  flex: 1 1 0%;
+  margin: 0;
+}
+.hr-line {
+  width: 100%;
+  margin: 0;
+}
+.faq-heading {
+  margin-top: 0 !important;
+}
+.faq-container {
+  width: 67%;
+}
+.faq-page {
+  padding: 1.75rem;
+  width: 100%;
+}
+.faq-body {
+  padding-inline: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-top: 0;
+}
 @media (max-width: 1024px) {
   .faq-container {
     max-width: 80%;
@@ -93,6 +136,16 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .faq-heading {
+    font-size: 32px;
+  }
+  .mainfaq {
+    flex-direction: column;
+  }
+  .faq-container {
+    width: 100%;
+    padding-inline: 0 !important;
+  }
   .faq-container {
     max-width: 100%;
     padding-inline: 20px;
@@ -106,7 +159,7 @@ body {
 }
 @media (max-width: 600px) {
   .faq-heading {
-    margin-top: 6rem !important;
+    margin-top: 0rem !important;
   }
   .faq-page {
     display: flex;

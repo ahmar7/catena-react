@@ -1,4 +1,19 @@
+.top-bar {
+  height: 31px;
+  width: 100%;
+}
+.tpm {
+  padding-top: 31px;
+}
+@media (min-width: 768px) {
+  .addbloa {
+    height: 115px !important;
+  }
+}
 @media (max-width: 768px) {
+  .h-\[53px\] {
+    height: 86px;
+  }
   .lg-only {
     display: none;
   }
@@ -45,5 +60,8 @@
   .nav-sign {
     transform: rotate(180deg);
     transition: all 0.5s ease;
+  }
+  .mbl-logo {
+    width: 172px;
   }
 }

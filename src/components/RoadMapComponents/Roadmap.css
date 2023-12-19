@@ -21,6 +21,9 @@
   width: 10%;
   position: relative;
 }
+.text-31as {
+  font-size: 64px !important;
+}
 .roadmap-wrapper .roadmap-row .roadmap-year {
   font-family: "Aeonik";
   font-size: 38px;
@@ -73,26 +76,35 @@
 }
 
 @media (max-width: 768px) {
+  .roadmap-wrapper .roadmap-row .roadmap-center-col .roadmap-dot {
+    width: 13px;
+    height: 13px;
+  }
   .roadmap-wrapper .roadmap-row .roadmap-content li {
     font-size: 16px;
     margin-bottom: 0;
   }
-  .rd-txt {
-    font-size: 38px !important;
-  }
+
   .roadmap-wrapper {
     margin-block: 4rem;
   }
   #roadmap-section {
     padding-block: 6rem 2rem;
   }
+  .roadmap-wrapper .roadmap-row .roadmap-center-col .roadmap-dot {
+    top: 12px;
+  }
+  .pains {
+    height: 113% !important;
+    background-color: rgb(59, 59, 59) !important;
+    z-index: 99 !important;
+  }
 }
 @media (max-width: 500px) {
-  .roadmap-wrapper .roadmap-row .roadmap-center-col .roadmap-dot {
-    width: 25px;
-    height: 25px;
-  }
   .roadmap-wrapper .roadmap-row .roadmap-year {
     font-size: 30px;
+  }
+  .roadmap-wrapper .roadmap-row .roadmap-center-col .roadmap-dot {
+    top: 10px;
   }
 }

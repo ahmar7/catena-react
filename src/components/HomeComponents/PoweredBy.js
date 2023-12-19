@@ -5,11 +5,11 @@ import Svg5 from "../../assets/img/5.svg";
 import Svg6 from "../../assets/img/6.svg";
 const PoweredBy = () => {
   return (
-    <section className="flex w-full flex-col items-center justify-center ">
+    <section className="manual flex w-full flex-col items-center justify-center ">
       <div className="relative w-full  ">
         <div className="flex w-full items-center justify-center">
           <img
-            className="scale-[1.5] logo-l object-center md:transform-none"
+            className="scale-[1.5] logo-la object-center md:transform-none"
             src={LogoToken}
             alt="catena token"
           />
@@ -28,26 +28,16 @@ const PoweredBy = () => {
         <div className="grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-0 lg:grid-cols-3">
           <div
             style={{ flexWrap: "wrap" }}
-            className="flex items-start justify-start"
+            className="flex items-start justify-start namona"
           >
-            <div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  minWidth: "100%",
-                }}
-              >
+            <div className="namona2">
+              <div>
                 <div style={{ display: "flex", marginRight: "0.5rem" }}>
-                  <img src={Svg4} height={15} width={15} alt="" />
+                  <img className="img4" src={Svg4} alt="" />
                 </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                  }}
-                >
+              </div>
+              <div className="text-16">
+                <div>
                   <span
                     className="font-aeonikMedium"
                     style={{ fontWeight: "bold" }}
@@ -55,11 +45,6 @@ const PoweredBy = () => {
                     True (3,3) Governance
                   </span>
                 </div>
-              </div>
-              <div
-                style={{ marginLeft: "26px !important" }}
-                className="text-16"
-              >
                 <p className="mt-1 font-aeonikRegular text-cf-light-2">
                   Security and sustained value capture through bonding and
                   staking $CHROME
@@ -69,26 +54,16 @@ const PoweredBy = () => {
           </div>
           <div
             style={{ flexWrap: "wrap" }}
-            className="flex items-start justify-start"
+            className="flex items-start justify-start namona"
           >
-            <div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  minWidth: "100%",
-                }}
-              >
+            <div className="namona2">
+              <div>
                 <div style={{ display: "flex", marginRight: "0.5rem" }}>
-                  <img src={Svg5} height={17} width={17} alt="" />
+                  <img className="img5" src={Svg5} alt="" />
                 </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                  }}
-                >
+              </div>
+              <div className="text-16">
+                <div>
                   <span
                     className="font-aeonikMedium"
                     style={{ fontWeight: "bold" }}
@@ -96,11 +71,6 @@ const PoweredBy = () => {
                     Execution Terminal Access
                   </span>
                 </div>
-              </div>
-              <div
-                style={{ marginLeft: "26px !important" }}
-                className="text-16"
-              >
                 <p className="mt-1 font-aeonikRegular text-cf-light-2">
                   Unlock access to institutional level execution by staking
                   $CHROME
@@ -110,26 +80,16 @@ const PoweredBy = () => {
           </div>
           <div
             style={{ flexWrap: "wrap" }}
-            className="flex items-start justify-start"
+            className="flex items-start justify-start namona"
           >
-            <div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  minWidth: "100%",
-                }}
-              >
+            <div className="namona2">
+              <div>
                 <div style={{ display: "flex", marginRight: "0.5rem" }}>
-                  <img src={Svg6} width={16} height={16} alt="" />
+                  <img className="img6" src={Svg6} alt="" />
                 </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                  }}
-                >
+              </div>
+              <div className="text-16  ">
+                <div>
                   <span
                     className="font-aeonikMedium"
                     style={{ fontWeight: "bold" }}
@@ -137,11 +97,6 @@ const PoweredBy = () => {
                     Whitelist Participation
                   </span>
                 </div>
-              </div>
-              <div
-                style={{ marginLeft: "25px !important" }}
-                className="text-16"
-              >
                 <p className="mt-1 font-aeonikRegular text-cf-light-2">
                   Participate in the next evolution of decentralised protocols
                 </p>

@@ -67,9 +67,9 @@ const Footer = () => {
               />
             </Link>
             <div className="flex flex-col space-y-7">
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-col space-y-2 y-43">
                 <span
-                  className="text-[24px] font-medium md:text-[32px]"
+                  className=" text-[24px] font-bold md:text-[32px]"
                   style={{ color: "black" }}
                 >
                   Sign up for our newsletter
@@ -162,7 +162,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex pt-6 md:space-x-8">
+          <div className="flex pt-6 md:space-x-8 mnoi">
             <div className="flex flex-col space-y-6 px-4 text-16">
               <span className="text-cf-light-1">Resources</span>
               <ul className="flex flex-col space-y-3 text-cf-light-3">

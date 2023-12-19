@@ -7,7 +7,7 @@ const RoadMap = () => {
       id="roadmap-section"
     >
       <span
-        className="text-31 rd-txt"
+        className="text-31as rd-txt"
         style={{
           fontFamily: '"Aeonik"',
           fontSize: "48px",
@@ -63,7 +63,7 @@ const RoadMap = () => {
               style={{ backgroundColor: "#3B3B3B" }}
             />
             <div
-              className="roadmap-bar"
+              className="roadmap-bar pains"
               style={{ backgroundColor: "#3B3B3B" }}
             />
           </div>

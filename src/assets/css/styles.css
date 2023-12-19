@@ -6,6 +6,12 @@
 body {
   font-family: "Aeonik", sans-serif;
 }
+.logos-b {
+  width: 24vw;
+}
+.pjui {
+  margin-top: 10.2vw;
+}
 
 .faq-heading {
   font-family: "Aeonik";
@@ -222,12 +228,29 @@ body {
   min-width: calc(100% / 3) !important;
 }
 
+@media (max-width: 768px) {
+  .logos-b {
+    width: 180px;
+  }
+}
 @media (max-width: 640px) {
+  .logos-b {
+    width: 60%;
+    margin: auto;
+  }
+  .pjui {
+    margin-top: 20vw;
+  }
   .logo-y {
     max-width: 570px;
   }
 }
 
+@media (max-width: 500px) {
+  .logos-b {
+    width: 75%;
+  }
+}
 @media (max-width: 1600px) {
   .cta {
     /* position: relative;

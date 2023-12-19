@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section
       className="mt-[-130px] flex flex-col items-center md:mt-[-140px]"
-      style={{ marginTop: "1%" }}
+      style={{ marginTop: "0%" }}
     >
       <img
         className="animate-fade-in logo-c"

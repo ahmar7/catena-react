@@ -17,8 +17,8 @@ const Faqs = () => {
     }
   });
   return (
-    <main>
-      <div className="container faq-main">
+    <main className="mainfaq">
+      <div className="  faq-main">
         <h1 style={{ marginTop: "100px" }} className="faq-heading">
           FAQ
         </h1>
@@ -61,8 +61,8 @@ const Faqs = () => {
               to peer swapping of tokens on-chain non custodially.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">Who benefits from using Catena Tools?</h1>
@@ -74,8 +74,8 @@ const Faqs = () => {
               Institutions to average users.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">What are liquidity positions?</h1>
@@ -87,8 +87,8 @@ const Faqs = () => {
               users swaps.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">How do I use Catena Tools?</h1>
@@ -99,8 +99,8 @@ const Faqs = () => {
               corner of the page to get started.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">Is Catena Tools free to use?</h1>
@@ -113,8 +113,8 @@ const Faqs = () => {
               Terminal are available for members who stake $CHROME{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">Is there a token?</h1>
@@ -126,8 +126,8 @@ const Faqs = () => {
               liquid for bootstrapping the protocol.
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">What is Protocol Y?</h1>
@@ -138,8 +138,8 @@ const Faqs = () => {
               powered by $CHROME.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">What is Staking/Bonding?</h1>
@@ -152,8 +152,8 @@ const Faqs = () => {
               the protocol can share profits with participants.
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">What is (3,3)?</h1>
@@ -166,8 +166,8 @@ const Faqs = () => {
               favored within the community.{" "}
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">How can I be a part of governance? </h1>
@@ -178,8 +178,8 @@ const Faqs = () => {
               for the platform with $CHROME.
             </p>
           </div>
-          <hr className="hr-line" />
         </div>
+        <hr className="hr-line" />
         <div className="faq-three faqmain">
           {/* faq question */}
           <h1 className="faq-page">Is this a DAO?</h1>
