@@ -26,7 +26,7 @@
   margin-top: 106px;
 }
 .flexes img {
-  width: 70%;
+  width: 200px;
 }
 .namona2 {
   display: flex;
@@ -45,9 +45,28 @@
 .namona2 .img6 {
   width: 24px;
 }
+.img-cona {
+  text-align: center;
+}
+.img-cona img {
+  /* width: 500px; */
+  margin: auto;
+}
+.all-imgs img {
+  position: static !important;
+}
+.img1 img {
+  width: 285px;
+}
+.img2 img {
+  width: 337px;
+}
+.img3 img {
+  width: 188px;
+}
 @media (min-width: 1100px) {
   .flexes img {
-    width: 75%;
+    width: 280px;
   }
 }
 
@@ -175,7 +194,7 @@
     width: 20px;
   }
   .flexes img {
-    width: 300px;
+    width: 200px;
   }
 }
 @media (max-width: 565px) {
@@ -218,5 +237,8 @@
   }
   .main-banners {
     margin-top: 32px;
+  }
+  .flexes img {
+    width: 160px;
   }
 }

@@ -7,6 +7,7 @@ import Future from "../components/HomeComponents/Future.js";
 import FlexItems from "../components/HomeComponents/FlexItems.js";
 import PoweredBy from "../components/HomeComponents/PoweredBy.js";
 import SocialLinks from "../components/HomeComponents/SocialLinks.js";
+import BigBanner from "../components/HomeComponents/BigBanner.js";
 import Top from "../components/Top.js";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             <Future />
             <FlexItems />
             <PoweredBy />
+            <BigBanner />
             <SocialLinks />
           </div>
         </div>

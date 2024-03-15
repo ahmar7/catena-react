@@ -1,12 +1,18 @@
 import React from "react";
+import tokenThree from "../../assets/img/3.png";
+import tokenTwo from "../../assets/img/2.png";
+import tokenOne from "../../assets/img/1.png";
 import FeatureBridge from "../../assets/img/1.svg";
 import FeatureBridge2 from "../../assets/img/2.svg";
 import FeatureBridge3 from "../../assets/img/3.svg";
 const KeyPOINTS = () => {
   return (
-    <section className="flex flex-col space-y-4 my-11 py-10">
+    <section className="flex flex-col space-y-4 py-10">
       <div className="grid cards2 grid-cols-1 gap-[20px] md:grid-cols-3 md:gap-[10px]">
         <div className="card">
+          <div className="img-cona img1">
+            <img src={tokenThree} alt="" />
+          </div>
           <div className="flex flex-col items-center space-y-4 rounded-md border border-cf-gray-4 pb-[24px] pt-4 relative before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-full before:rounded-md before:bg-[radial-gradient(800px_circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.06),transparent_40%)] inner">
             <div></div>
             <div
@@ -59,6 +65,9 @@ const KeyPOINTS = () => {
           </div>
         </div>
         <div className="card">
+          <div className="img-cona img2">
+            <img src={tokenTwo} alt="" />
+          </div>
           <div className="flex flex-col items-center space-y-4 rounded-md border border-cf-gray-4 pb-[24px] pt-4 relative before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-full before:rounded-md before:bg-[radial-gradient(800px_circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.06),transparent_40%)] inner">
             <div>
               <img src="images/home/feature-composability.png" alt="" />
@@ -112,6 +121,9 @@ const KeyPOINTS = () => {
           </div>
         </div>
         <div className="card">
+          <div className="img-cona img3">
+            <img src={tokenOne} alt="" />
+          </div>
           <div className="flex flex-col items-center space-y-4 rounded-md border border-cf-gray-4 pb-[24px] pt-4 relative before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-full before:rounded-md before:bg-[radial-gradient(800px_circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.06),transparent_40%)] inner">
             <div>
               <img src="images/home/feature-tokens.png" alt="" />

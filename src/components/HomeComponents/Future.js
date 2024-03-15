@@ -1,5 +1,5 @@
 import React from "react";
-import LogoY from "../../assets/img/LOGO Y.png";
+import LogoY from "../../assets/img/Compass Logo Gif.gif";
 const Future = () => {
   return (
     <section className="w-full">

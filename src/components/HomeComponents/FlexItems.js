@@ -1,17 +1,18 @@
 import React from "react";
 import "./style.css";
 import Catalogue from "../../assets/img/trade-catalogue.png";
-// import Catalogue from "../../assets/img/";
+import Img4 from "../../assets/img/4.png";
+import Img5 from "../../assets/img/5.png";
+import Img6 from "../../assets/img/6.png";
+import Img7 from "../../assets/img/7.png";
+import Img8 from "../../assets/img/8.png";
+
 const FlexItems = () => {
   return (
-    <section className="flex flex-col flexes space-y-10">
+    <section className="flex all-imgs flex-col flexes space-y-10">
       <div className="relative flex w-full flex-col items-center justify-end gap-8 sm:flex-row-reverse">
         <div className="relative z-[-1] aspect-square min-h-[40vh] flex-1 img-flex sm:min-h-0 sm:min-w-[600px]">
-          <img
-            className="absolute"
-            src="images/home/perk-security.svg"
-            alt=""
-          />
+          <img className="absolute" src={Img4} alt="" />
         </div>
         <div className="flex max-w-md flex-1 flex-col sm:max-w-none">
           <h1 className="text-24 font-semibold sm:text-[35px]">
@@ -27,7 +28,7 @@ const FlexItems = () => {
         <div className="relative z-[-1] aspect-square min-h-[40vh] flex-1 img-flex sm:min-h-0 sm:min-w-[600px]">
           <img
             className="absolute left-[-60%] top-1/4 scale-[220%]"
-            src="images/home/capital-efficiency.svg"
+            src={Img5}
             alt=""
           />
         </div>
@@ -45,7 +46,7 @@ const FlexItems = () => {
         <div className="relative z-[-1] aspect-square min-h-[40vh] flex-1 img-flex sm:min-h-0 sm:min-w-[600px]">
           <img
             className="scale-[100%] sm:-top-40 sm:left-10 sm:scale-150"
-            src={Catalogue}
+            src={Img6}
             alt=""
           />
         </div>
@@ -63,7 +64,7 @@ const FlexItems = () => {
         <div className="relative z-[-1] aspect-square min-h-[40vh] flex-1 img-flex sm:min-h-0 sm:min-w-[600px]">
           <img
             className="absolute right-3 scale-[95%] sm:right-6 sm:scale-125"
-            src="images/home/pools.png"
+            src={Img7}
             alt=""
           />
         </div>
