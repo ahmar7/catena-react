@@ -1,11 +1,12 @@
 import React from "react";
-import LogoY from "../../assets/img/Compass Logo Gif.gif";
+import LogoY from "../../assets/img/Compass Logo.mp4";
 const Future = () => {
   return (
     <section className="w-full">
       <div className="flex w-full flex-col items-center">
-        <div className="relative">
-          <img className="logos-b" src={LogoY} alt="cf-jit" style={{}} />
+        <div className="relative flex items-center">
+          {/* <img className="logos-b" src={LogoY} alt="cf-jit" style={{}} /> */}
+          <video className="comp" src={LogoY} autoPlay loop muted></video>
         </div>
         <div className="flex pjui w-full flex-col no-padi items-center justify-start px-2 sm:px-0">
           <span className="   text-16" style={{ color: "#c54a85" }}>

@@ -35,7 +35,7 @@ const Banner = () => {
             tracking and an execution terminal for DEX participants. <br />
           </span>
           <br />
-          <div className="w-full text-[14px] animate-move-up">
+          <div className="w-full asha text-[14px] animate-move-up">
             <div
               className="h-[38px] w-full overflow-hidden md:h-auto md:w-[500px] pl-3 border-spacing-1 rounded-md text-cf-light-2 border-cf-gray-4 bg-cf-gray-2 flex justify-start items-center border hover:border-cf-gray-5 hover:ease-out duration-300 focus-within:bg-cf-gray-3 focus-within:border-cf-gray-5 focus-within:text-white border-cf-gray-4"
               style={{

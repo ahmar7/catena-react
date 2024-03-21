@@ -244,6 +244,9 @@ body {
   .logo-y {
     max-width: 570px;
   }
+  .faq-page:after {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 500px) {

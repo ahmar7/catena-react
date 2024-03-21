@@ -121,7 +121,7 @@ const KeyPOINTS = () => {
           </div>
         </div>
         <div className="card">
-          <div className="img-cona img3">
+          <div className="img-cona img3 flex items-center">
             <img src={tokenOne} alt="" />
           </div>
           <div className="flex flex-col items-center space-y-4 rounded-md border border-cf-gray-4 pb-[24px] pt-4 relative before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-full before:rounded-md before:bg-[radial-gradient(800px_circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.06),transparent_40%)] inner">
